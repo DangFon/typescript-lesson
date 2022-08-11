@@ -71,7 +71,7 @@ wa = function (n3, n4) {
 let warray : Array<string>
 warray = ["1","2","3","4"]
 
-let owarry: Array<boolean>
+let owarry: Boolean[]
 owarry = [true, false, true, false]
 
 
