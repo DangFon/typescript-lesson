@@ -16,7 +16,8 @@ module.exports = {
         filename:'bundle.js',
         // 兼容低版本浏览器(IE) 不使用箭头函数
         environment:{
-            arrowFunction:false
+            arrowFunction:false,
+            const: false //兼容IE11
         }
     },
     mode:'production',
